@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="javaWeb">
+    <output-path>$PROJECT_DIR$/out/artifacts/javaWeb</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaWeb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="javaWeb" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="commons-lang3-3.6" />
+          <element id="library" level="project" name="jackson-mapper-asl-1.9.13" />
+          <element id="library" level="project" name="com.fasterxml.jackson.core" />
+          <element id="library" level="project" name="google-collect-1.0" />
+          <element id="library" level="project" name="com.fasterxml.jackson.jaxb" />
+          <element id="library" level="project" name="com.fasterxml.jackson.databind" />
+          <element id="library" level="project" name="com.fasterxml.jackson.annotations" />
+          <element id="library" level="project" name="jackson-annotations-2.7.4" />
+          <element id="library" level="project" name="jackson-core-2.7.4" />
+          <element id="library" level="project" name="jackson-databind-2.7.4" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="JavaWeb/web/Web" />
+    </root>
+  </artifact>
+</component>
