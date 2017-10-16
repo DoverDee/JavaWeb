@@ -24,17 +24,13 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="javaWeb" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 8.5.6" level="application_server_libraries" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 8.0.47" level="application_server_libraries" />
     <orderEntry type="library" exported="" name="jstl-1.2" level="project" />
     <orderEntry type="library" exported="" name="commons-lang3-3.6" level="project" />
-    <orderEntry type="library" exported="" name="jackson-mapper-asl-1.9.13" level="project" />
-    <orderEntry type="library" exported="" name="com.fasterxml.jackson.core" level="project" />
-    <orderEntry type="library" exported="" name="com.fasterxml.jackson.annotations" level="project" />
-    <orderEntry type="library" exported="" name="com.fasterxml.jackson.databind" level="project" />
-    <orderEntry type="library" exported="" name="com.fasterxml.jackson.jaxb" level="project" />
     <orderEntry type="library" exported="" name="google-collect-1.0" level="project" />
-    <orderEntry type="library" name="jackson-annotations-2.7.4" level="project" />
-    <orderEntry type="library" name="jackson-databind-2.7.4" level="project" />
-    <orderEntry type="library" name="jackson-core-2.7.4" level="project" />
+    <orderEntry type="library" name="jackson-annotations-2.9.2 (2)" level="project" />
+    <orderEntry type="library" name="jackson-core-2.9.2 (2)" level="project" />
+    <orderEntry type="library" name="jackson-databind-2.9.2 (2)" level="project" />
+    <orderEntry type="library" name="jackson-module-jaxb-annotations-2.9.2 (2)" level="project" />
   </component>
 </module>

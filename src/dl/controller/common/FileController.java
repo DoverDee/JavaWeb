@@ -30,7 +30,7 @@ import java.nio.file.Paths;
 @Controller
 public class FileController {
   private static Logger logger = Logger.getRootLogger();
-  private static final String DOWNLOAD_FILE_PATH = "D:\\Software\\PhotoShop\\Adobe_Photoshop_CS6.zip";
+  private static final String DOWNLOAD_FILE_PATH = "D:\\Software\\Flash Builder4.5\\Adobe Flash Builder 4.5.zip";
   // private static final String DOWNLOAD_FILE_PATH = "E:/temp/jsp_tutorial.pdf";
 
   /**
@@ -124,7 +124,11 @@ public class FileController {
     return "fileDownload";
   }
 
-  // Using ResponseEntity<InputStreamResource>
+  /**
+   * Using ResponseEntity<InputStreamResource>
+   * @return ResponseEntity<InputStreamResource>
+   * @throws IOException e
+   */
   @GetMapping("/download1")
   public ResponseEntity<InputStreamResource> downloadFile1() throws IOException {
     logger.info("FileController->downloadFile1()");
@@ -136,7 +140,12 @@ public class FileController {
         .contentType(MediaType.APPLICATION_PDF).contentLength(file.length()).body(resource);
   }
 
-  // Using ResponseEntity<ByteArrayResource>
+  /**
+   * Using ResponseEntity<ByteArrayResource>
+   * 比download1下载的文件要小
+   * @return ResponseEntity<ByteArrayResource>
+   * @throws IOException e
+   */
   @GetMapping("/download2")
   public ResponseEntity<ByteArrayResource> downloadFile2() throws IOException {
     logger.info("FileController->downloadFile2()");
@@ -150,7 +159,12 @@ public class FileController {
         .contentType(MediaType.APPLICATION_PDF).contentLength(data.length).body(resource);
   }
 
-  // Using HttpServletResponse
+  /**
+   * Using HttpServletResponse
+   * 动态调一直滚动平凡，分段/批下载
+   * @param response response
+   * @throws IOException e
+   */
   @GetMapping("/download3")
   public void downloadFile3(HttpServletResponse response) throws IOException {
     File file = new File(DOWNLOAD_FILE_PATH);
