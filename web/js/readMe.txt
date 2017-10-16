@@ -1,1 +1,1 @@
-This directory is designed to save javaScript files that programed by customer!
+This directory is designed to save javaScript files that programed by customer.
