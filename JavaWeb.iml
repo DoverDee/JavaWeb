@@ -28,14 +28,17 @@
     <orderEntry type="library" exported="" name="jstl-1.2" level="project" />
     <orderEntry type="library" exported="" name="commons-lang3-3.6" level="project" />
     <orderEntry type="library" exported="" name="google-collect-1.0" level="project" />
-    <orderEntry type="library" name="jackson-annotations-2.9.2 (2)" level="project" />
-    <orderEntry type="library" name="jackson-core-2.9.2 (2)" level="project" />
-    <orderEntry type="library" name="jackson-databind-2.9.2 (2)" level="project" />
-    <orderEntry type="library" name="jackson-module-jaxb-annotations-2.9.2 (2)" level="project" />
-    <orderEntry type="library" name="poi-3.17" level="project" />
-    <orderEntry type="library" name="poi-ooxml-3.17" level="project" />
-    <orderEntry type="library" name="xmlbeans-2.6.0" level="project" />
-    <orderEntry type="library" name="commons-collections4-4.1" level="project" />
-    <orderEntry type="library" name="poi-ooxml-schemas-3.17" level="project" />
+    <orderEntry type="library" exported="" name="poi-3.17" level="project" />
+    <orderEntry type="library" exported="" name="poi-ooxml-3.17" level="project" />
+    <orderEntry type="library" exported="" name="xmlbeans-2.6.0" level="project" />
+    <orderEntry type="library" exported="" name="commons-collections4-4.1" level="project" />
+    <orderEntry type="library" exported="" name="poi-ooxml-schemas-3.17" level="project" />
+    <orderEntry type="library" exported="" name="jackson-annotations-2.9.2" level="project" />
+    <orderEntry type="library" exported="" name="jackson-core-2.9.2 (2)" level="project" />
+    <orderEntry type="library" exported="" name="jackson-databind-2.9.2 (2)" level="project" />
+    <orderEntry type="library" exported="" name="jackson-module-jaxb-annotations-2.9.2 (2)" level="project" />
+    <orderEntry type="library" exported="" name="jackson-module-jaxb-annotations-2.9.2" level="project" />
+    <orderEntry type="library" name="jackson-databind-2.9.2" level="project" />
+    <orderEntry type="library" name="jackson-core-2.9.2" level="project" />
   </component>
 </module>

@@ -10,15 +10,19 @@
           <element id="library" level="project" name="javaWeb" />
           <element id="library" level="project" name="jstl-1.2" />
           <element id="library" level="project" name="commons-lang3-3.6" />
-          <element id="library" level="project" name="jackson-mapper-asl-1.9.13" />
-          <element id="library" level="project" name="com.fasterxml.jackson.core" />
           <element id="library" level="project" name="google-collect-1.0" />
-          <element id="library" level="project" name="com.fasterxml.jackson.jaxb" />
-          <element id="library" level="project" name="com.fasterxml.jackson.databind" />
-          <element id="library" level="project" name="com.fasterxml.jackson.annotations" />
-          <element id="library" level="project" name="jackson-annotations-2.7.4" />
-          <element id="library" level="project" name="jackson-core-2.7.4" />
-          <element id="library" level="project" name="jackson-databind-2.7.4" />
+          <element id="library" level="project" name="poi-3.17" />
+          <element id="library" level="project" name="poi-ooxml-3.17" />
+          <element id="library" level="project" name="xmlbeans-2.6.0" />
+          <element id="library" level="project" name="commons-collections4-4.1" />
+          <element id="library" level="project" name="poi-ooxml-schemas-3.17" />
+          <element id="library" level="project" name="jackson-annotations-2.9.2" />
+          <element id="library" level="project" name="jackson-core-2.9.2 (2)" />
+          <element id="library" level="project" name="jackson-databind-2.9.2 (2)" />
+          <element id="library" level="project" name="jackson-module-jaxb-annotations-2.9.2 (2)" />
+          <element id="library" level="project" name="jackson-module-jaxb-annotations-2.9.2" />
+          <element id="library" level="project" name="jackson-databind-2.9.2" />
+          <element id="library" level="project" name="jackson-core-2.9.2" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="JavaWeb/web/Web" />
