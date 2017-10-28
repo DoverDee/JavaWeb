@@ -39,7 +39,7 @@
     <listener>
         <listener-class>org.springframework.web.util.WebAppRootListener</listener-class>
     </listener>
-    <!-- 默认会加载/WEB-INF/下面的applicationContext.xml文件，并创建一个WebApplicationContext容器。-->
+    <!-- 默认会加载/WEB-INF/下面的applicationContext.xml文件，并创建一个WebApplicationContext容器。配置contextConfigLocation属性时按路径加载-->
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
@@ -54,7 +54,7 @@
         <!-- 加载/WEB-INF/[servlet-name]-servlet.xml -->
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:spring/springMvc-servlet.xml</param-value>
+            <param-value>classpath:spring/springMVC-servlet.xml</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>

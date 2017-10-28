@@ -23,6 +23,16 @@
           <element id="library" level="project" name="jackson-module-jaxb-annotations-2.9.2" />
           <element id="library" level="project" name="jackson-databind-2.9.2" />
           <element id="library" level="project" name="jackson-core-2.9.2" />
+          <element id="library" level="project" name="c3p0-0.9.5.2" />
+          <element id="library" level="project" name="commons-codec-1.10" />
+          <element id="library" level="project" name="commons-dbcp-1.4" />
+          <element id="library" level="project" name="commons-dbutils-1.7" />
+          <element id="library" level="project" name="commons-pool-1.6" />
+          <element id="library" level="project" name="freemarker-2.3.26" />
+          <element id="library" level="project" name="jcommon-1.0.23" />
+          <element id="library" level="project" name="jfreechart-1.0.19" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.44-bin" />
+          <element id="library" level="project" name="spring-jdbc-4.3.9.RELEASE" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="JavaWeb/web/Web" />

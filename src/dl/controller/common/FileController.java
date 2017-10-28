@@ -169,7 +169,7 @@ public class FileController {
   public void downloadFile3(HttpServletResponse response) throws IOException {
     File file = new File(DOWNLOAD_FILE_PATH);
     logger.info("FileController->downloadFile3()");
-    response.setContentType("application/pdf");
+    response.setContentType("spring/pdf");
     response.setHeader("Content-Disposition", "attachment;filename=" + StringUtil.toUTF8String(file.getName()));
     BufferedInputStream inStream = new BufferedInputStream(new FileInputStream(file));
     BufferedOutputStream outStream = new BufferedOutputStream(response.getOutputStream());
