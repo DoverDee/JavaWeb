@@ -1,4 +1,4 @@
-package dl.service.common;
+package dl.vo;
 
 /**
  * Created by DL on 2017/9/21.

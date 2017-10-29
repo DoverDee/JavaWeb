@@ -1,6 +1,6 @@
 package dl.controller.common;
 
-import dl.service.common.UploadedFile;
+import dl.vo.UploadedFile;
 import dl.utils.StringUtil;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
