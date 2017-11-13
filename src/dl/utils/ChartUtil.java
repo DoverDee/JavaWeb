@@ -33,14 +33,14 @@ import org.jfree.data.general.PieDataset;
  * 实际取色的时候一定要16位的，这样比较准确
  * @author new
  */
-public class GenerateChart {
+public class ChartUtil {
 
   private static final String CHART_PATH = "E:/temp/";
 
   public static void main(String[] args) {
     // TODO Auto-generated method stub
     //生成图片在20k以下
-    GenerateChart pm = new GenerateChart();
+    ChartUtil pm = new ChartUtil();
     // 生成单组柱状图
     pm.makeBarChart();
     // 生成多组柱状图

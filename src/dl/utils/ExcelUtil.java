@@ -16,9 +16,9 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 /**
  * Created by DL on 2017/4/27.
  */
-public class ExcelReaderAndWriter {
+public class ExcelUtil {
   public static void main(String[] args) {
-    ExcelReaderAndWriter excelReader = new ExcelReaderAndWriter();
+    ExcelUtil excelReader = new ExcelUtil();
     try {
       // sheet->row->cell
       // List<List<List<String>>> resultXlsx =

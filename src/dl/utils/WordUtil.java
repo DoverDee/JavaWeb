@@ -31,16 +31,16 @@ import freemarker.template.Template;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateExceptionHandler;
 
-public class GenerateDocWithChart {
+public class WordUtil {
   private Configuration configuration = null;
 
-  public GenerateDocWithChart() {
+  public WordUtil() {
     configuration = new Configuration(Configuration.VERSION_2_3_25);
     configuration.setDefaultEncoding("UTF-8");
   }
 
   public static void main(String[] args) throws Exception {
-    GenerateDocWithChart ts = new GenerateDocWithChart();
+    WordUtil ts = new WordUtil();
     Map<String, Object> dataMap = ts.getData();
     ts.createWord(dataMap);
 
