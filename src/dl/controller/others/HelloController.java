@@ -14,12 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
     private static Logger logger = Logger.getRootLogger();
 
-    @RequestMapping(value = "/welcome")
-    public String welcome(Model model) {
-        logger.info("HelloController->hello()");
-        return "redirect:/html/welcome.html";
-    }
-
     @RequestMapping(value = "/toJsp")
     public String toJsp(Model model) {
         logger.info("HelloController->hello()");
