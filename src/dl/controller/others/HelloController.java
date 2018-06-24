@@ -14,13 +14,23 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
     private static Logger logger = Logger.getRootLogger();
 
-    @RequestMapping(value = "/world")
-    public String hello(Model model) {
+    @RequestMapping(value = "/welcome")
+    public String welcome(Model model) {
+        logger.info("HelloController->hello()");
+        return "redirect:/html/welcome.html";
+    }
+
+    @RequestMapping(value = "/toJsp")
+    public String toJsp(Model model) {
         logger.info("HelloController->hello()");
         model.addAttribute("msg", "你好spring mvc");
-        System.out.println("ok");
         return "hello";
     }
 
+    @RequestMapping(value = "/toHtml")
+    public String toHtml(Model model) {
+        logger.info("HelloController->toHtml()");
+        return "redirect:/html/hello.html";
+    }
 
 }

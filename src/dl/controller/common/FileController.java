@@ -40,7 +40,7 @@ public class FileController {
    */
   @GetMapping("/upload1")
   public String fileUpload(Model model) {
-    return "fileUpload1";
+    return "jsp/fileUpload1";
   }
 
   @PostMapping("/fileUpload")
@@ -67,7 +67,7 @@ public class FileController {
    */
   @RequestMapping(value = "/upload2")
   public String inputProduct(Model model) {
-    return "fileUpload2";
+    return "jsp/fileUpload2";
   }
 
   @RequestMapping("/saveFile_1")
@@ -92,7 +92,7 @@ public class FileController {
   @RequestMapping(value = "/upload3")
   public String goUpload(Model model) {
     model.addAttribute("title", "测试上传");
-    return "fileUpload3";
+    return "jsp/fileUpload3";
   }
 
   @RequestMapping("/saveFile_2")
@@ -121,7 +121,7 @@ public class FileController {
 
   @GetMapping("/download")
   public String fileDownload(Model model) {
-    return "fileDownload";
+    return "jsp/fileDownload";
   }
 
   /**

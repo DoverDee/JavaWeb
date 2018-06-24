@@ -20,13 +20,15 @@
 
   <!-- 静态资源配置不拦截请求,但assets中是系统提供上传或下载的文件不应加入配置 -->
   <mvc:resources location="/plugins/" mapping="/plugins/**"/>
-  <mvc:resources location="/images/" mapping="/image/**"/>
+  <mvc:resources location="/images/" mapping="/images/**"/>
   <mvc:resources location="/css/" mapping="/css/**"/>
   <mvc:resources location="/js/" mapping="/js/**"/>
+  <!-- 配置Controller跳转到HTML页面 -->
+  <mvc:resources mapping="/html/**" location="/WEB-INF/pages/html/"/>
 
   <!-- 视图层配置 -->
-  <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-    <property name="prefix" value="/WEB-INF/pages/"/>
+  <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <property name="prefix" value="/WEB-INF/pages/jsp/"/>
     <property name="suffix" value=".jsp"/>
   </bean>
 
