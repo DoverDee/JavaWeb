@@ -1,1 +1,0 @@
-# This directory is designed to save image files!
